@@ -1,0 +1,68 @@
+{
+  // * Apc Customize UI++
+  "apc.electron": {
+    "titleBarStyle": "hiddenInset",
+    "frame": false
+  },
+  "apc.stylesheet": {
+    ".title-actions, .editor-actions": {
+      "display": "none"
+    }
+  },
+  // * Breadcrumbs
+  "breadcrumbs.enabled": false,
+  // * Editor
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.fontFamily": "JetBrains Mono",
+  "editor.fontSize": 15,
+  "editor.fontWeight": "300",
+  "editor.formatOnSave": true,
+  "editor.guides.indentation": false,
+  "editor.lineHeight": 23,
+  "editor.minimap.enabled": false,
+  "editor.renderLineHighlight": "none",
+  "editor.scrollbar.horizontal": "hidden",
+  "editor.scrollbar.horizontalScrollbarSize": 0,
+  "editor.scrollbar.vertical": "hidden",
+  "editor.scrollbar.verticalScrollbarSize": 0,
+  "editor.scrollBeyondLastLine": false,
+  "editor.tabSize": 2,
+  "editor.wordWrap": "on",
+  // * Explorer
+  "explorer.autoReveal": false,
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
+  // * Files
+  "files.autoSave": "onWindowChange",
+  "files.trimTrailingWhitespace": true,
+  // * Live Server
+  "liveServer.settings.donotShowInfoMsg": true,
+  // * Prisma
+  "[prisma]": {
+    "editor.defaultFormatter": "Prisma.prisma"
+  },
+  // * Prettier
+  "prettier.arrowParens": "avoid",
+  "prettier.singleQuote": true,
+  // * Tailwind CSS Intellisense for clsx
+  "tailwindCSS.experimental.classRegex": [
+    ["clsx\\(([^)]*)\\)", "(?:'|\"|`)([^']*)(?:'|\"|`)"]
+  ],
+  // * Terminal
+  "terminal.external.osxExec": "iTerm.app",
+  "terminal.integrated.env.osx": {},
+  "terminal.integrated.fontFamily": "MesloLGS NF",
+  "terminal.integrated.scrollback": 10000,
+  // * Window
+  "window.commandCenter": false,
+  "window.titleBarStyle": "native",
+  // * Workbench
+  "workbench.activityBar.location": "hidden",
+  "workbench.colorTheme": "Flate",
+  "workbench.editor.tabActionCloseVisibility": false,
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.layoutControl.enabled": false,
+  "workbench.statusBar.visible": false,
+  "workbench.startupEditor": "none",
+  "workbench.tree.renderIndentGuides": "none"
+}
