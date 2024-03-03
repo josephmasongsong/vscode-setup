@@ -14,11 +14,11 @@
   // * Editor
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.fontFamily": "JetBrains Mono",
-  "editor.fontSize": 15,
+  "editor.fontSize": 14,
   "editor.fontWeight": "300",
   "editor.formatOnSave": true,
   "editor.guides.indentation": false,
-  "editor.lineHeight": 23,
+  "editor.lineHeight": 24,
   "editor.minimap.enabled": false,
   "editor.renderLineHighlight": "none",
   "editor.scrollbar.horizontal": "hidden",
@@ -26,6 +26,7 @@
   "editor.scrollbar.vertical": "hidden",
   "editor.scrollbar.verticalScrollbarSize": 0,
   "editor.scrollBeyondLastLine": false,
+  "editor.stickyScroll.enabled": false,
   "editor.tabSize": 2,
   "editor.wordWrap": "on",
   // * Explorer
@@ -33,6 +34,9 @@
   "explorer.confirmDelete": false,
   "explorer.confirmDragAndDrop": false,
   // * Files
+  "files.associations": {
+    "*.html": "liquid"
+  },
   "files.autoSave": "onWindowChange",
   "files.trimTrailingWhitespace": true,
   // * Live Server
@@ -44,25 +48,25 @@
   // * Prettier
   "prettier.arrowParens": "avoid",
   "prettier.singleQuote": true,
+  "prettier.printWidth": 100,
   // * Tailwind CSS Intellisense for clsx
-  "tailwindCSS.experimental.classRegex": [
-    ["clsx\\(([^)]*)\\)", "(?:'|\"|`)([^']*)(?:'|\"|`)"]
-  ],
+  "tailwindCSS.experimental.classRegex": [["clsx\\(([^)]*)\\)", "(?:'|\"|`)([^']*)(?:'|\"|`)"]],
   // * Terminal
   "terminal.external.osxExec": "iTerm.app",
   "terminal.integrated.env.osx": {},
-  "terminal.integrated.fontFamily": "MesloLGS NF",
+  "terminal.integrated.fontFamily": "'JetBrains Mono', 'MesloLGS NF'",
   "terminal.integrated.scrollback": 10000,
   // * Window
   "window.commandCenter": false,
   "window.titleBarStyle": "native",
   // * Workbench
   "workbench.activityBar.location": "hidden",
-  "workbench.colorTheme": "Flate",
+  "workbench.colorTheme": "Aura Dark",
   "workbench.editor.tabActionCloseVisibility": false,
   "workbench.iconTheme": "material-icon-theme",
   "workbench.layoutControl.enabled": false,
   "workbench.statusBar.visible": false,
   "workbench.startupEditor": "none",
+  "workbench.tree.enableStickyScroll": false,
   "workbench.tree.renderIndentGuides": "none"
 }
